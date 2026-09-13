@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="grid grid-cols-2 place-items-center my-10 ">
             <div>
                 <h2 className=" my-4 font-bold text-4xl">Build Your Ideal
-              <p className="text-5xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">Development Stack</p></h2>
+              <p className="text-5xl font-bold bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">Development Stack</p></h2>
              <p>Explore frontend, backend, database, and tooling options,<br />
               compare them side by side, and put together the stack that fits your <br />
                next project.</p>
@@ -19,6 +19,7 @@ const Banner = () => {
                 </div> 
             
         </div>
+        
     );
 };
 
