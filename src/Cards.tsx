@@ -6,7 +6,7 @@ interface OneProps{
 }
 
 const Cards = ({onePromise}:OneProps)=> {
-    const ones= use(onePromise)
+    use(onePromise)
     return (
 
         <div className="ml-[120px] ">
