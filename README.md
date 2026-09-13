@@ -30,3 +30,16 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+
+
+1.  jsx is a component which extend the ja file.jsx is used in react as it makes the code easier to read and write.
+2.  props is used to pass information and sate is used to manage the dynamic data
+3.  useState is a React Hook used to store and update data that can change over time.I used it in the avai;able stack part.
+4.  useEffect does:Fetching data
+    Calling an API
+    Loading external data
+    Working with browser APIs
+5.React needs a unique key to identify each item.
+6. Conditional rendering means returning something under a certain condtion
+7. as react is uni-directional platform we cant send data from child to parent
