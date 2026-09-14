@@ -43,7 +43,7 @@ const Availablecards = ({ users }: CardsProps) => {
           </div>
 
           {/* Title */}
-          <h2 className="mt-5 text-xl font-bold text-gray-900">
+          <h2 className="mt-6 text-xl font-bold text-gray-900">
             {user.name}
           </h2>
 
