@@ -2,6 +2,7 @@
 import { use } from "react";
 import type { Ione } from "./types/onetype";
 import Availablecards from "./Availablecards";
+import Stack from "./Stack";
 interface OneProps{
     onePromise:Promise<Ione[]>;
 }
@@ -15,6 +16,7 @@ const Cards = ({onePromise}:OneProps)=> {
             <p className="my-[30px] ">Pick one technology per category to build your ideal stack.</p>
         </div>
         <Availablecards users={users}></Availablecards>
+     <Stack users={users}></Stack>
     </div>
           
         

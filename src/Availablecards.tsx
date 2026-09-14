@@ -7,8 +7,9 @@ import type { Ione } from "./types/onetype";
 type CardsProps = {
   users:Ione[];
 };
-const [selectedStacks, setSelectedStacks] = useState<Ione[]>([]);
+
 const Availablecards = ({ users }: CardsProps) => {
+    const [selectedStacks, setSelectedStacks] = useState<Ione[]>([]);
     return ( 
     <div className="flex">
 
