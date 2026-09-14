@@ -6,6 +6,7 @@ import Cards from './Cards';
 import { Suspense } from 'react';
 import type { Ione } from './types/onetype';
 import Footer from './Footer';
+import Availablecards from './Availablecards';
 
 
 const oneFetch=async() :Promise<Ione[]>=>{
@@ -25,6 +26,7 @@ function App() {
      <Cards onePromise={onePromise} />
     </Suspense>
     <Footer/>
+    
     </>
   )
 }
