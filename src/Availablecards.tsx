@@ -95,7 +95,7 @@ const Availablecards = ({ users }: CardsProps) => {
   {/* Selected Stacks */}
   <div className="w-[250px] ml-10">
 
-    <h3 className="font-bold text-2xl text-white">
+    <h3 className="font-bold text-2xl text-black">
       Selected Stacks
     </h3>
 
