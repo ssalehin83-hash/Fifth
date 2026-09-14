@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 
 const oneFetch=async() :Promise<Ione[]>=>{
-  const res=await fetch('/public/data.json')
+  const res=await fetch('/data.json')
   const data=await res.json()
   return data;
 }
